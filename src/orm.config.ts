@@ -7,7 +7,7 @@ export const config: TypeOrmModuleOptions = {
     host: 'localhost',
     port: 5432,
     username: 'postgres',
-    password: 'uocgitrungso_1',
+    password: 'your_password_here',
     database: 'nest_employee',
     entities: [Employee],
     synchronize: true,
